@@ -56,7 +56,7 @@
 | `zones: ['reading']` | 這課只開放哪些區域 | 第 5 課 |
 | `readingMode: 'readAloud'` | 課文森林改成逐句跟讀，不考試 | 第 5 課 |
 | `boss: null` | 沒有島主 | 第 5 課 |
-| `choiceCount: 8` | 單字很多時，選擇題每次只抽幾題（拼字題每個單字都會考） | 第 3 課 |
+| `choiceCount: 5` | 單字很多時，選擇題每次只抽幾題（拼字題每個單字都會考） | 第 3 課 |
 | `grammar.quizCount: 10` | 文法題庫每次只抽幾題 | 第 3、4、8 課 |
 | 單字的 `label: '1st'` | 沒有插圖時用文字標籤當圖 | 第 6 課 |
 | 單字的 `spell: 'scooter'` | 片語只拼其中一個字 | 第 1 課 |
@@ -73,7 +73,7 @@
 第一次上線只要做一次：
 
 1. 在 GitHub 建立一個新的 repository，**不要**勾選「Add a README file」，保持空的
-2. 在 VS Code 的終端機（PowerShell）裡，確認位置在專案資料夾，執行下面的指令（最後兩行的網址換成你的 repository 網址）：
+2. 在 VS Code 的終端機（PowerShell）裡，確認位置在專案資料夾，執行下面的指令（`git remote add` 那行的網址換成你的 repository 網址）：
 
    ```powershell
    git add .
