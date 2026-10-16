@@ -537,6 +537,8 @@
         }
       }
       $('.progress i', root).style.width = Math.round((answered / (answered + queue.length)) * 100) + '%';
+      // 答題當下就更新島主血條（不等下一題），最後一擊時才會降到 0
+      if (boss) $('.hp i', root).style.width = (hp / total) * 100 + '%';
       foot.innerHTML = `<button class="btn big">${queue.length ? '下一題 ▶' : boss ? '最後一擊！💥' : '完成！🎉'}</button>`;
       $('button', foot).onclick = next;
     }
