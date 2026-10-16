@@ -1,0 +1,17 @@
+# 原始課本照片與角色原圖（只放在本機，不上傳）
+素材/
+
+# Python 虛擬環境（本專案是純網頁，不需要）
+.venv/
+
+# macOS 系統檔（Finder 設定、zip 壓縮殘留）
+.DS_Store
+__MACOSX/
+._*
+
+# Windows 系統檔（縮圖快取、資料夾設定）
+Thumbs.db
+desktop.ini
+
+# 個人編輯器設定
+.vscode/
